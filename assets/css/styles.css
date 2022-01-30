@@ -16,7 +16,7 @@
 #1 VARIABLES
  */
 :root {
-    --color-one: #ff6c40;
+    --color-one: #ff6c40c7;
     --color-two: #7bc37b;
 }
 
@@ -106,24 +106,38 @@ header > nav {
 
 header ul {
     display: flex;
-    width: 30%;
+    width: 60%;
     justify-content: space-between;
     padding: 0;
-    margin: 0;
+    margin: 1em 0;
     height: 100%;
+    align-items: center;
 }
 
 header li {
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin: 25px 0;
     border: 1px solid black;
-    padding: 17px 22px;
-    min-width: 40px;
+    margin-right: 35px;
 }
-
+header li:hover{
+    transition: 0.5s;
+    background: var(--color-two);
+}
+header li:hover a{
+    color: white;
+}
 header a {
     text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    min-width: 60px;
+    color: black;
 }
 
 /*
@@ -249,9 +263,24 @@ header a {
 .fa-heart {
     color: red;
 }
+.content > div > ul > li:nth-child(1):hover{
+    transition: 0.5s;
+    background: red;
+}
+
+.content > div > ul > li:nth-child(1):hover .fa-heart{
+    color: white;
+}
 
 .fa-shopping-bag {
     color: var(--color-one);
+}
+.content > div > ul > li:nth-child(2):hover{
+    transition: 0.5s;
+    background: var(--color-one);
+}
+.content > div > ul > li:nth-child(2):hover .fa-shopping-bag{
+    color: white;
 }
 
 .fa-star {
