@@ -106,7 +106,6 @@ header > nav {
 
 header ul {
     display: flex;
-    width: 60%;
     justify-content: space-between;
     padding: 0;
     margin: 1em 0;
@@ -123,7 +122,9 @@ header li {
 }
 header li:hover{
     transition: 0.5s;
-    background: var(--color-two);
+    background: var(--color-one);
+    border: 1px white solid;
+    transform: scale(1.1);
 }
 header li:hover a{
     color: white;
@@ -153,9 +154,9 @@ header a {
 }
 
 .welcome article > img {
-    border-radius: 10%;
     border: 3px solid black;
-    width: 25%;
+    width: 45%;
+    box-shadow: -16px 11px 5px 2px white;
 }
 
 .welcome article > .content {
@@ -181,7 +182,7 @@ header a {
     flex-direction: column;
     align-items: center;
     width: 80%;
-    border: 1px #7bc37b solid;
+    border: 2px #7bc37b solid;
 }
 
 .card > .image {
@@ -313,7 +314,7 @@ header a {
 }
 
 .display-stars #one {
-    bottom: 40px;
+    bottom: 30px;
     left: 2px;
 }
 
@@ -334,7 +335,7 @@ header a {
 
 .display-stars #five {
     right: 2px;
-    bottom: 40px;
+    bottom: 30px;
 }
 
 .reward .title {
