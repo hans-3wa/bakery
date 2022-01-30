@@ -1,9 +1,29 @@
+/*
+---------- SOMMAIRE CSS-----------
+#1 VARIABLES
+#2 BALISES HTML
+#3 CLASS GLOBALS
+#4 HEADER
+#5 WELCOME
+#6 PRODUCT
+#7 REWARD
+#8 FOOTER
+--------------------------------------
+ */
 
+
+
+/*
+#1 VARIABLES
+ */
 :root {
     --color-one: #ff6c40;
     --color-two: #7bc37b;
 }
 
+/*
+#2 BALISES HTML
+ */
 body {
     font-family: sans-serif;
     margin: 0;
@@ -18,10 +38,52 @@ p {
     font-weight: 500;
 }
 
+ul {
+    list-style: none;
+}
+
+/*
+#3 CLASS GLOBALS
+*/
 .container {
     margin: 0 4%;
 }
 
+.flex {
+    display: flex;
+}
+
+.colum {
+    flex-direction: column;
+}
+
+.grid {
+    display: grid;
+}
+
+.g-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.g-141{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+.separator {
+    width: 100%;
+    border: 1px solid var(--color-one);
+    display: block;
+    margin: 2% 0;
+}
+
+.s-w {
+    border: 1px solid white !important;
+}
+
+/*
+#4 HEADER
+ */
 header {
     display: flex;
     justify-content: space-between;
@@ -31,9 +93,6 @@ header {
 
 header > .title {
     width: 30%;
-}
-
-.title {
     padding-left: 1%;
 }
 
@@ -46,28 +105,30 @@ header > nav {
 
 header ul {
     display: flex;
-    list-style: none;
     width: 30%;
     justify-content: space-between;
     padding: 0;
 }
 
-.welcolm {
+/*
+#5 WELCOME
+ */
+.welcome {
     background: var(--color-one);
     padding: 2%;
 }
 
-.welcolm article {
+.welcome article {
     display: flex;
 }
 
-.welcolm article > img {
+.welcome article > img {
     border-radius: 10%;
     border: 3px solid black;
     width: 25%;
 }
 
-.welcolm article > .content {
+.welcome article > .content {
     line-height: 1.6em;
     color: white;
     display: flex;
@@ -76,6 +137,9 @@ header ul {
     flex-direction: column;
 }
 
+/*
+#6 PRODUCT
+ */
 .products {
     background: white;
     margin: 2%;
@@ -109,7 +173,6 @@ header ul {
 }
 
 .card .content > ul {
-    list-style: none;
     padding: 0;
 }
 
@@ -122,13 +185,6 @@ header ul {
     margin-right: 7px;
 }
 
-.grid {
-    display: grid;
-}
-
-.g-3 {
-    grid-template-columns: 1fr 1fr 1fr;
-}
 
 .col-4 {
     width: 100%;
@@ -136,18 +192,9 @@ header ul {
     justify-content: center;
 }
 
-.separator {
-    width: 100%;
-    border: 1px solid var(--color-one);
-    display: block;
-    margin: 2% 0;
-}
-
-.s-w {
-    border: 1px solid white !important;
-}
-
-
+/*
+#7 REWARD
+ */
 .reward {
     background: var(--color-one);
 }
@@ -160,7 +207,6 @@ header ul {
 
 .social-icon > ul {
     display: flex;
-    list-style: none;
     padding: 0;
     width: 100%;
     justify-content: space-between;
@@ -184,6 +230,10 @@ header ul {
 
 .fa-heart {
     color: red;
+}
+
+.fa-shopping-bag {
+    color: var(--color-one);
 }
 
 .fa-star {
@@ -240,7 +290,7 @@ header ul {
     bottom: 40px;
 }
 
-.reward .title{
+.reward .title {
     text-align: center;
     color: white;
     margin-bottom: 1em;
@@ -256,3 +306,46 @@ header ul {
 .reward .content p {
     line-height: 1.6em;
 }
+
+/*
+#8 FOOTER
+ */
+footer {
+    background: antiquewhite;
+    padding: 1em;
+}
+
+footer > .container {
+    min-height: 150px;
+}
+
+footer ul {
+    margin: 0;
+    margin-top: 1em;
+    padding: 0;
+    height: 100%;
+}
+
+footer ul  > li{
+    margin-bottom: 15px;
+}
+
+footer ul  > li > i{
+    margin-right: 7px;
+    font-size: 20px;
+}
+
+
+footer .contact ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+footer .citation figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
