@@ -33,6 +33,10 @@ h1, h2, h3 {
     padding: 0;
 }
 
+section{
+    padding: 5% 0;
+}
+
 p {
     font-weight: 500;
 }
@@ -146,7 +150,6 @@ header a {
  */
 .welcome {
     background: var(--color-one);
-    padding: 2%;
 }
 
 .welcome article {
@@ -173,7 +176,6 @@ header a {
  */
 .products {
     background: white;
-    margin: 2%;
 }
 
 .card {
@@ -288,9 +290,6 @@ header a {
     color: yellow;
 }
 
-.reward {
-    padding: 1em 0;
-}
 
 .reward > .image {
     display: flex;
