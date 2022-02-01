@@ -11,4 +11,4 @@ The Bakery application contains the following pages :
 
 ## Instruction
 
--[instruction.txt](https://github.com/Peedro07/project-php/tree/main/instruction)
+- [instruction.txt](https://github.com/Peedro07/project-php/blob/main/instruction/instructions.txt)
