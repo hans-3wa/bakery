@@ -9,7 +9,7 @@
 #7 REWARD
 #8 FOOTER
 --------------------------------------
- */
+*/
 
 
 /*
@@ -93,6 +93,7 @@ header {
     min-height: 100px;
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 
 header > .title {

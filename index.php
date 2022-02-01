@@ -7,19 +7,9 @@
     <script src="https://kit.fontawesome.com/f7f33bc48f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<header>
-    <div class="title">
-        <h1>Ma boulangerie</h1>
-    </div>
-    <nav>
-        <ul>
-            <li><a class="link-item" href="#">Accueil</a></li>
-            <li><a class="link-item" href="#">Boutique</a></li>
-            <li><a class="link-item" href="#">Profil</a></li>
-        </ul>
-    </nav>
-</header>
+
 <main>
+    <?php include './php/inc/_header.php'; ?>
     <section class="welcome">
         <div class="container">
             <article>
@@ -150,31 +140,7 @@
         </div>
     </section>
 </main>
-<footer>
-    <div class="container g-141">
-        <div class="contact flex colum">
-            <h2>Contact</h2>
-            <ul class="flex colum">
-                <li><a href="mailto:boulangerie@gmail.com">boulangerie@gmail.com</a></li>
-                <li><a href="tel:+33678741234">0601020304</a></li>
-                <li>12 rue lafayette 49100 Angers</li>
-            </ul>
-        </div>
-        <div class="citation">
-            <figure>
-                <p><q>Quand on ne sait pas jouer, il faut savoir tricher</q></p>
-                <figcaption>—Pierre Waflart, <cite>J'avais 12 ans</cite></figcaption>
-            </figure>
-        </div>
-        <div class="social flex colum ">
-            <h2>Nos reseaux</h2>
-            <ul class="flex colum">
-                <li><i class="fab fa-instagram"></i> Instagram</li>
-                <li><i class="fab fa-facebook"></i> Facebook</li>
-            </ul>
-        </div>
-    </div>
-</footer>
+<?php include './php/inc/_footer.php'; ?>
 <script type="text/javascript" src="./assets/js/script.js"></script>
 </body>
 </html>
