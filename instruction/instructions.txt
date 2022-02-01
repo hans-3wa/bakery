@@ -1,0 +1,82 @@
+Projet : maBoulangerie.fr
+
+Stack : Php / Mysql Html Css Js
+
+Pages html: 
+    - index.html
+    - account.html
+    - account-pro.html
+    - shop.html
+    - product.html
+    - login.htm
+    
+
+Indication : le site doit être en responsive adapté pour tablette et mobile. 
+             Vous êtes libre de choisir les images que vous souhaitez. 
+
+1. Créer index.html 
+   
+   La page doit contenir un header un footer (le header et le footer seront à dupliquer sur toutes les pages).
+   
+   Faire une section "Bienvenue" : avec une image de la boulangerie (ou autre) et un texte.
+   
+   Faire une section " Nos produits phares ": avec 3 blocks identiques : un titre, une image, 3 ingrédients (liste a puces), un bouton        acheter
+   
+   Faire une section : " Nos récompenses " : libre a votre créativité de réaliser cette section. Elle a pour but de présenter le titre du    meilleur pain au chocolat/ ou chocolatine (on ne va pas se fâcher).
+
+
+2. Créer account.html
+
+    Inclure le header et footer fait sur la page index.html
+    
+    Faire une section " Account ": avec une navbar contenant : profil, commandes, favoris, portefeuille
+    
+    Faire les sections correspondantes : 
+        - Profil : un formulaire avec nom - prénom - email - mot de passe. Un button
+        - Commandes : un tableau avec l'ID, Produit, Prix, Date.
+        - Favoris : remettre les " block " présent sur l'accueil des produits favoris (2 blocks). 
+        - Portefeuille : un block avec le solde + un formulaire input pour approvisionner le portefeuille.
+    
+    En JS, créer le script qui permet d'afficher la section en fonction du click sur la navbar.
+
+
+3. Créer account-pro.html
+    
+    copier/coller la page account.html
+    
+    Modifier les éléments de la nav par : commandes, clients, produits, ajouter.
+    
+    Faire les sections correspondante: 
+        - Commandes : Un tableau de toutes les commandes avec : ID, ID_CLIENT, ID_PRODUIT, Prix, Date.
+        - Clients : Un tableau de tous les clients avec : ID, nom, prénom, email.
+        - Produits : Un tableau de tous les produits avec : ID, nom, prix.
+        
+    En JS, créer le script qui permet d'afficher la section en fonction du click sur la navbar.
+    
+    
+4. Créer shop.html 
+ 
+    Inclure le header et footer fait sur la page index.html
+ 
+    Faire une section "navbar", pour faire une barre de recherche.
+    
+    Faire une autre section "produits" contenant tous les produits de la boulangerie. 3 produits par ligne donc 4 lignes.
+    
+
+5. Créer product.html
+
+    Creer une page avec juste une photo du produit 
+    Afficher la liste des ingredients. 
+    Afficher le prix. 
+    Proposer un bouton favoris et acheter.
+    
+6. Créer login.html
+
+    Créer un formulaire avec 2 inputs:
+    E-mail 
+    Mot de passe
+    Et un bouton pour submit
+    
+    
+    
+ 
